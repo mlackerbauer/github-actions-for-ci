@@ -6,7 +6,6 @@ export default class Game {
     this.player = Math.random() < 0.5 ? this.p1 : this.p2
     this.sym = 'X'
   }
-
   
   turn (row, col) {
     col = col || row
